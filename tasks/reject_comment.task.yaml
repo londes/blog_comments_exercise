@@ -1,0 +1,14 @@
+slug: reject_comment
+name: Reject comment
+parameters:
+  - name: Comment ID
+    slug: comment_id
+    type: integer
+    required: false
+
+sql:
+  resource: dev_comments
+  entrypoint: reject_comment.sql
+  queryArgs:
+    comment_id: "{{params.comment_id}}"
+

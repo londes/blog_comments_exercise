@@ -1,0 +1,8 @@
+slug: comments_lookup
+name: Comments lookup
+
+sql:
+  resource: dev_comments
+  entrypoint: comments_lookup.sql
+
+

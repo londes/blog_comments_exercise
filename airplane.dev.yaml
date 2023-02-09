@@ -1,0 +1,12 @@
+resources:
+    - database: postgres
+      host: db.miuocncoludiivgdiugv.supabase.co
+      kind: postgres
+      name: dev_comments
+      password: hOsK7KCqvQNNuKtq
+      port: "5432"
+      slug: dev_comments
+      ssl: require
+      username: postgres
+configVars: {}
+envVars: {}
