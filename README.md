@@ -1,8 +1,7 @@
-# Template: Views getting started
+# Exercise: Blog comments
 
-## Next steps
+## Description
 
-1. Navigate to the getting_started directory: `cd views_getting_started`
-2. Develop your view locally: `airplane dev`
-3. Visit the getting started guide for Airplane Views to continue building your view: https://docs.airplane.dev/views/getting-started
-4. Deploy your tasks and view: `airplane deploy --yes`
+1. Exercise for a blog moderation use case, where users can jump into Airplane to approve or reject comments from users on a blog
+2. Connects to a Postgres db for comments and Airtable for user moderator information, and who is to check those comments
+3. Allows end-users to approve or reject comments for the blog directly from the Airplane UI and edit fields in the comments db to complete their task
